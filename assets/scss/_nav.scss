@@ -21,7 +21,7 @@
     white-space: nowrap;
   }
 
-  a, a:focus {
+  a {
     display: flex;
     align-items: center;
     color: $secondary;
@@ -55,7 +55,7 @@
 
   }
 
-  a:hover, .active, .active:focus, li:hover > a {
+  a:hover, .active, li:hover > a {
     color: $white;
     background: $primary;
     span {
